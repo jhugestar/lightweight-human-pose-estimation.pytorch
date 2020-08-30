@@ -8,7 +8,7 @@ from pycocotools.cocoeval import COCOeval
 
 import torch
 
-from datasets.coco import CocoValDataset
+# from datasets.coco import CocoValDataset
 from pose2d_models.with_mobilenet import PoseEstimationWithMobileNet
 from modules.keypoints import extract_keypoints, group_keypoints
 from modules.load_state import load_state
