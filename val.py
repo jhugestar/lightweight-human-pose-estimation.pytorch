@@ -3,12 +3,12 @@ import cv2
 import json
 import math
 import numpy as np
-from pycocotools.coco import COCO
-from pycocotools.cocoeval import COCOeval
+# from pycocotools.coco import COCO
+# from pycocotools.cocoeval import COCOeval
 
 import torch
 
-from datasets.coco import CocoValDataset
+# from datasets.coco import CocoValDataset
 from models.with_mobilenet import PoseEstimationWithMobileNet
 from modules.keypoints import extract_keypoints, group_keypoints
 from modules.load_state import load_state
