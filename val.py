@@ -9,7 +9,7 @@ import numpy as np
 import torch
 
 # from datasets.coco import CocoValDataset
-from models.with_mobilenet import PoseEstimationWithMobileNet
+from pose2d_models.with_mobilenet import PoseEstimationWithMobileNet
 from modules.keypoints import extract_keypoints, group_keypoints
 from modules.load_state import load_state
 
